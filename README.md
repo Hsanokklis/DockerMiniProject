@@ -37,6 +37,7 @@ For this project you will need to follow the [Firely III](https://docs.firefly-i
 * use `docker stop container_name` to stop a specific container
 * use `docker compose build --no-cache` to rebuild containers from scratch
 * Use `exec` to execute commands within your container and not your localhost
+* When configuring the Firely files, make sure every file except docker-compose.yml has a preceeding period. 
 
 ## Set up Firefly III Container
 
@@ -45,6 +46,17 @@ For this project you will need to follow the [Firely III](https://docs.firefly-i
 * `mkdir DockerProject`
 
   _This is where you will place all of your project files and where docker will pull from to start your container_
+
+### Create Firefly YAML files
+
+Copy/paste the yml files from the [Firely website]([url](https://docs.firefly-iii.org/how-to/data-importer/installation/docker/)) or the project files in this project
+
+* `nano` [docker.compose.yml](docker-compose.yml)
+* `nano` [.importer.env](.importer.env)
+* `nano` [.db.env](.db.env)
+* `nano` [.env](.env)
+
+
 
 
 ## Set up Nginx proxy 
