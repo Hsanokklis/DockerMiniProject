@@ -40,7 +40,7 @@ For this project you will need to follow the [Firely III](https://docs.firefly-i
 
 ## Set up Firefly III Container
 
-**Make a project directory** 
+### Make a project directory 
 
 This is where you will place all of your project files and where docker will pull from to start your container. 
 
