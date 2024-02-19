@@ -42,8 +42,9 @@ For this project you will need to follow the [Firely III](https://docs.firefly-i
 
 ### Make a project directory 
 
-This is where you will place all of your project files and where docker will pull from to start your container. 
-
 * `mkdir DockerProject`
+
+  _This is where you will place all of your project files and where docker will pull from to start your container_
+
 
 ## Set up Nginx proxy 
