@@ -1,7 +1,10 @@
 # DockerMiniProject - Personal Finance with Firefly III 
 
 ### Overview of Project Steps
-1. Firefly III
+
+Goals: Deploy [Firefly III]([url](https://www.firefly-iii.org/)) and an Nginx Proxy via Docker
+
+1. Set up Firefly III Container
   * https://peterpf.dev/posts/self-host-firefly-with-docker-and-nginx/ (compose file for Firefly)
-3. firefly III SQL database
-4. Nginx proxy
+2. Setup firefly III SQL database
+3. Set up Nginx proxy
