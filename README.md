@@ -5,7 +5,7 @@
 **Goals:** Deploy [Firefly III](https://www.firefly-iii.org/) and an Nginx Proxy via Docker
 
 **Description:**
-For this project you will need to follow the Firely III documentation on how to install their container which can be found here. Once you have the yaml file for firefly, you will set up a nginx proxy in front of the firefly interface for forward it to port 80 when browsing on your localhost.
+For this project you will need to follow the [Firely III](https://docs.firefly-iii.org/how-to/data-importer/installation/docker/) documentation on how to install their container. Once you have the yaml file for firefly, you will set up a nginx proxy in front of the firefly interface for forward it to port 80 when browsing on your localhost.
 
 **Pre-Requisites:** 
 * Installed Docker
@@ -25,6 +25,14 @@ For this project you will need to follow the Firely III documentation on how to 
   ![image](https://github.com/Hsanokklis/DockerMiniProject/assets/113212665/4004fe7b-9267-491f-8f5c-92b646a7ca55)
 
 ### Helpful Tips and Commands
+
+* Copy and paste the YML files directly from the yml Firefly website (yml configurations are super picky!)
+* make sure you are in the correct directory when running `docker-compose up -d`
+* If a Docker command dosen't work try running it with `sudo`
+* use `docker-compose down` to shut down your containers BEFORE making changes to the docker-compose.yml file
+* use `docker ps` to view what containers are running
+* use `docker stop container_name` to stop a specific container
+* use 
 
 ## Set up Firefly III Container
 
