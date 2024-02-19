@@ -11,7 +11,7 @@ For this project you will need to follow the Firely III documentation on how to 
 * Installed Docker
 * Installed Docker Compose
 
-### [File structure](![image](https://github.com/Hsanokklis/DockerMiniProject/assets/113212665/d4afa2f2-2b32-4dd8-9e2c-59d80109e24b)
+### File structure
 
 **DockerProject**
 * [docker-compose.yml](docker-compose.yml)
@@ -21,6 +21,9 @@ For this project you will need to follow the Firely III documentation on how to 
 * **nginx**
    * DockerFile
    * nginx.conf
+ 
+  ![image](https://github.com/Hsanokklis/DockerMiniProject/assets/113212665/4004fe7b-9267-491f-8f5c-92b646a7ca55)
+
 ### Helpful Tips and Commands
 
 ## Set up Firefly III Container
