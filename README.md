@@ -49,12 +49,19 @@ For this project you will need to follow the [Firely III](https://docs.firefly-i
 
 ### Create Firefly YAML files
 
-Copy/paste the yml files from the [Firely website]([url](https://docs.firefly-iii.org/how-to/data-importer/installation/docker/)) or the project files in this project
+Use your favorite text editor and creae the files below in the `DockerProject` directory. Copy/paste the yml files from the [Firely website](https://docs.firefly-iii.org/how-to/data-importer/installation/docker/) or the project files in this project.
 
-* `nano` [docker.compose.yml](docker-compose.yml)
-* `nano` [.importer.env](.importer.env)
-* `nano` [.db.env](.db.env)
-* `nano` [.env](.env)
+* [docker.compose.yml](docker-compose.yml)
+* [.importer.env](.importer.env)
+* [.db.env](.db.env)
+* [.env](.env)
+  
+**If you save all example files and change nothing, it will NOT YET work. You must do a few things:**
+
+* Change `DB_PASSWORD` in `.env` to something else 
+* Change `MYSQL_PASSWORD` in `.db.env` to the **SAME** value
+* Change `FIREFLY_III_URL` in `.importer.env` to `http://app:8080`
+* Change `VANITY_URL` in `.importer.env` to `http://localhost`
 
 
 
