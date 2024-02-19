@@ -102,6 +102,8 @@ You also shouldn't have to specifiy a port when browsing since nginx will change
 
 ![image](https://github.com/Hsanokklis/DockerMiniProject/assets/113212665/b5172e0a-98b2-48ad-a130-492f87865882)
 
+_View Troubleshooting Steps [here](https://github.com/Hsanokklis/2023-2024-Tech-journal/wiki/Troubleshooting-Steps)_
+
 
 
 
