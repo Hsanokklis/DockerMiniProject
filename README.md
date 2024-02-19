@@ -49,7 +49,7 @@ For this project you will need to follow the [Firely III](https://docs.firefly-i
 
 ### Create Firefly YAML files
 
-Use your favorite text editor and creae the files below in the `DockerProject` directory. Copy/paste the yml files from the [Firely website](https://docs.firefly-iii.org/how-to/data-importer/installation/docker/) or the project files in this project.
+Use your favorite text editor and create the files below in the `DockerProject` directory. Copy/paste the yml files from the [Firely website](https://docs.firefly-iii.org/how-to/data-importer/installation/docker/) or the project files in this project.
 
 * [docker.compose.yml](docker-compose.yml)
 * [.importer.env](.importer.env)
