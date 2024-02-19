@@ -63,7 +63,46 @@ Use your favorite text editor and creae the files below in the `DockerProject` d
 * Change `FIREFLY_III_URL` in `.importer.env` to `http://app:8080`
 * Change `VANITY_URL` in `.importer.env` to `http://localhost`
 
-
-
-
 ## Set up Nginx proxy 
+
+Within the DockerProject directory, make a new directory called `nginx`. You will need to put some config files that the main docker-compose.yml file will pull from to set up the nginx container
+
+* `mkdir nginx`
+
+Within your nginx directory make two files (you can use [this link](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Docker-Nginx-reverse-proxy-setup-example) or my project files): 
+* [Dockerfile](Dockerfile)
+* [nginx.conf](nginx.conf)
+
+_Make sure that `proxy_pass` in `nginx.conf` is set to `http://app:8080;`_
+
+## Edit your docker-compose.yml to add the nginx service 
+
+My `docker-compose.yml` project file already has this part in it, so if you copied mine when you created the firely files, then you don't need to do this step. If not, update the `docker-compose.yml` file with the syntax below. 
+
+````
+#this goes under the importer section of the file
+nginx:
+    build: ./nginx
+    ports:
+      - '80:80'
+    links:
+      - app
+    networks:
+      - firefly_iii
+````
+
+## Start your Containers! 
+
+* run `sudo docker-compose up -d` 
+* run `sudo docker ps` to check that your containers are all running 
+
+If all your files match what I have, and you have changed the configurations to reflect your system, then you should be able to browse to Firely on your browser via `http://localhost`. 
+
+You also shouldn't have to specifiy a port when browsing since nginx will change your request to the default port of 80! 
+
+![image](https://github.com/Hsanokklis/DockerMiniProject/assets/113212665/b5172e0a-98b2-48ad-a130-492f87865882)
+
+
+
+
+
