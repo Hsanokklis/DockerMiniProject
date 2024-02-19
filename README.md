@@ -2,7 +2,7 @@
 
 ### Overview of Project Steps
 
-Goals: Deploy [[Firefly III]] and an Nginx Proxy via Docker
+Goals: Deploy [Firefly III](https://www.firefly-iii.org/) and an Nginx Proxy via Docker
 
 1. Set up Firefly III Container
   * https://peterpf.dev/posts/self-host-firefly-with-docker-and-nginx/ (compose file for Firefly)
