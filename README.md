@@ -11,7 +11,7 @@ For this project you will need to follow the Firely III documentation on how to 
 * Installed Docker
 * Installed Docker Compose
 
-### [File structure]((![image](https://github.com/Hsanokklis/DockerMiniProject/assets/113212665/25ae331b-070a-4adf-b1a4-9807bc19276f))
+### [File structure](![image](https://github.com/Hsanokklis/DockerMiniProject/assets/113212665/d4afa2f2-2b32-4dd8-9e2c-59d80109e24b)
 
 **DockerProject**
 * [docker-compose.yml](docker-compose.yml)
