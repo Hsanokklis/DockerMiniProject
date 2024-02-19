@@ -37,7 +37,7 @@ services:
       - app
     env_file: .importer.env
 
-  feet:
+  nginx:
     build: ./nginx
     ports:
       - '80:80'
