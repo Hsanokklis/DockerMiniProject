@@ -14,7 +14,7 @@ For this project you will need to follow the Firely III documentation on how to 
 ### File structure
 
 **DockerProject**
-* docker-compose.yml
+* [docker-compose.yml](docker-compose.yml)
 * .env
 * .db.env
 * .importer.env
